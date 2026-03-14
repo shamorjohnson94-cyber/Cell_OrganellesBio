@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title> Cell Organelle By Mahnoor & Shamor </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      color: #ffffff;
+      background: url("https://i.pinimg.com/736x/94/6a/ef/946aefafc108848c5f36eb04e0e0fb98.jpg") center/cover fixed no-repeat;
+      min-height: 100vh;
+    }
+
+    .overlay {
+      background: radial-gradient(circle at top, rgba(255,255,255,0.15), rgba(0,0,0,0.9));
+      min-height: 100vh;
+      padding: 40px 20px 60px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1rem;
+      opacity: 0.9;
+      text-shadow: 0 0 6px #ffffff;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: rgba(0, 0, 0, 0.55);
+      border-radius: 18px;
+      padding: 18px 18px 20px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 18px rgba(255, 255, 255, 0.25);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 14px;
+      display: block;
+      margin-bottom: 14px;
+      box-shadow: 0 0 12px #ffffff;
+    }
+
+    .card h2 {
+      font-size: 1.1rem;
+      margin-bottom: 6px;
+      text-shadow: 0 0 8px #ffffff;
+    }
+
+    .tagline {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      opacity: 0.85;
+      margin-bottom: 10px;
+    }
+
+    .section-title {
+      font-weight: 700;
+      font-size: 0.9rem;
+      margin-top: 8px;
+      margin-bottom: 4px;
+      text-shadow: 0 0 6px #ffffff;
+    }
+
+    .card p {
+      font-size: 0.85rem;
+      line-height: 1.4;
+      margin-bottom: 4px;
+    }
+
+    .found-in {
+      margin-top: 8px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-shadow: 0 0 6px #ffffff;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.75rem;
+      opacity: 0.8;
+      text-shadow: 0 0 5px #ffffff;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="container">
+      <header>
+        <h1>Organelle Gallery</h1>
+        <p>A glowing tour of the cell’s most important structures</p>
+      </header>
+
+      <main class="grid">
+        <!-- 1. Rough ER -->
+        <article class="card">
+          <img src="https://i.pinimg.com/736x/3c/fa/7e/3cfa7e50290da49928739bf2796cffe6.jpg" alt="Rough Endoplasmic Reticulum" />
+          <div class="tagline">Rough Endoplasmic Reticulum (Rough ER)</div>
+          <h2>Protein Bakery of the Cell</h2>
+
+          <div class="section-title">⭐ Creative Function Description</div>
+          <p>The Rough ER is like a busy bakery kitchen, where tiny chefs (ribosomes) sit on top of it and bake fresh proteins all day long.</p>
+
+          <div class="section-title">⭐ Why It’s Important</div>
+          <p>Without the Rough ER, your cell would have no proteins to ship, meaning no enzymes, no hormones, no structure — basically, no life.</p>
+          <p>It’s the first stop in the protein‑making assembly line.</p>
+
+          <div class="found-in">⭐ Found In: Plant cells ✔️ | Animal cells ✔️ | BOTH</div>
+        </article>
+
+        <!-- 2. Smooth ER -->
+        <article class="card">
+          <img src="https://i.pinimg.com/736x/3b/88/21/3b8821fed3190ddb9d791f40fa98f061.jpg" alt="Smooth Endoplasmic Reticulum" />
+          <div class="tagline">Smooth Endoplasmic Reticulum (Smooth ER)</div>
+          <h2>Spa & Detox Center</h2>
+
+          <div class="section-title">⭐ Creative Function Description</div>
+          <p>The Smooth ER is the cell’s spa and detox center — it relaxes the cell by making lipids and breaking down toxins.</p>
+
+          <div class="section-title">⭐ Why It’s Important</div>
+          <p>It creates fats, oils, and hormones that keep the cell running smoothly.</p>
+          <p>It detoxifies harmful chemicals — without it, your cells would be overwhelmed by waste.</p>
+
+          <div class="found-in">⭐ Found In: Plant cells ✔️ | Animal cells ✔️ | BOTH</div>
+        </article>
+
+        <!-- 3. Ribosomes -->
+        <article class="card">
+          <img src="https://i.pinimg.com/736x/ed/3e/06/ed3e06365a9af00942be89869baf6bdf.jpg" alt="Ribosomes" />
+          <div class="tagline">Ribosomes</div>
+          <h2>Master Protein Chefs</h2>
+
+          <div class="section-title">⭐ Creative Function Description</div>
+          <p>Ribosomes are the master chefs of the cell — they read recipes (mRNA) and cook up proteins one amino acid at a time.</p>
+
+          <div class="section-title">⭐ Why They’re Important</div>
+          <p>Every structure, enzyme, and cell function depends on proteins.</p>
+          <p>Ribosomes are the only organelles that can build proteins, making them essential for life.</p>
+
+          <div class="found-in">⭐ Found In: Plant cells ✔️ | Animal cells ✔️ | BOTH</div>
+        </article>
+
+        <!-- 4. Golgi Apparatus -->
+        <article class="card">
+          <img src="https://i.pinimg.com/1200x/14/a5/3e/14a53efbd9ddb6a058f75b9cf62d917a.jpg" alt="Golgi Apparatus" />
+          <div class="tagline">Golgi Apparatus</div>
+          <h2>Cell Post Office</h2>
+
+          <div class="section-title">⭐ Creative Function Description</div>
+          <p>The Golgi is the cell’s post office — it sorts, packages, and ships proteins and lipids to their final destinations.</p>
+
+          <div class="section-title">⭐ Why It’s Important</div>
+          <p>Without the Golgi, proteins would wander around lost.</p>
+          <p>It ensures every molecule gets to the right place at the right time.</p>
+
+          <div class="found-in">⭐ Found In: Plant cells ✔️ | Animal cells ✔️ | BOTH</div>
+        </article>
+
+        <!-- 5. Mitochondria -->
+        <article class="card">
+          <img src="https://i.pinimg.com/1200x/9d/74/33/9d743380f748e67fcc887571725b5ae0.jpg" alt="Mitochondria" />
+          <div class="tagline">Mitochondria</div>
+          <h2>Power Plants of the Cell</h2>
+
+          <div class="section-title">⭐ Creative Function Description</div>
+          <p>Mitochondria are the power plants of the cell — they burn fuel and release energy (ATP) that keeps everything running.</p>
+
+          <div class="section-title">⭐ Why They’re Important</div>
+          <p>No mitochondria = no energy = no life.</p>
+          <p>They power movement, thinking, breathing — everything your body does.</p>
+
+          <div class="found-in">⭐ Found In: Plant cells ✔️ | Animal cells ✔️ | BOTH</div>
+        </article>
+
+        <!-- 6. Lysosomes -->
+        <article class="card">
+          <img src="https://i.pinimg.com/736x/af/22/b6/af22b6ce0c5ffd2bc837e345038a443d.jpg" alt="Lysosomes" />
+          <div class="tagline">Lysosomes</div>
+          <h2>Clean‑Up & Recycling Crew</h2>
+
+          <div class="section-title">⭐ Creative Function Description</div>
+          <p>Lysosomes are the cell’s clean‑up crew and recycling center — they break down trash, old parts, and invaders.</p>
+
+          <div class="section-title">⭐ Why They’re Important</div>
+          <p>They prevent waste from piling up.</p>
+          <p>They recycle materials so the cell can reuse them — super eco‑friendly!</p>
+
+          <div class="found-in">⭐ Found In: Plant cells ⚠️ (rare) | Animal cells ✔️ | BOTH but mostly animals</div>
+        </article>
+
+        <!-- 7. Cell Wall -->
+        <article class="card">
+          <img src="https://i.pinimg.com/736x/0e/e0/dc/0ee0dc21db070af528dfab79ad4b3ad8.jpg" alt="Cell Wall" />
+          <div class="tagline">Cell Wall</div>
+          <h2>Armor of Plant Cells</h2>
+
+          <div class="section-title">⭐ Creative Function Description</div>
+          <p>The cell wall is the armor of plant cells — a tough outer shell that keeps the cell strong and upright.</p>
+
+          <div class="section-title">⭐ Why It’s Important</div>
+          <p>Gives plants their shape and prevents them from collapsing.</p>
+          <p>Protects the cell from physical damage and too much water.</p>
+
+          <div class="found-in">⭐ Found In: Plant cells ✔️ | Animal cells ❌ | PLANTS ONLY</div>
+        </article>
+
+        <!-- 8. Plasma Membrane -->
+        <article class="card">
+          <img src="https://i.pinimg.com/736x/cc/06/04/cc0604f646e32dc19ee6006a9ba87591.jpg" alt="Plasma Membrane" />
+          <div class="tagline">Plasma Membrane</div>
+          <h2>Cell Bouncer</h2>
+
+          <div class="section-title">⭐ Creative Function Description</div>
+          <p>The plasma membrane is the cell’s bouncer — it decides who gets in, who stays out, and what leaves.</p>
+
+          <div class="section-title">⭐ Why It’s Important</div>
+          <p>Maintains balance by controlling what enters and exits.</p>
+          <p>Without it, the cell would lose all its materials and die instantly.</p>
+
+          <div class="found-in">⭐ Found In: Plant cells ✔️ | Animal cells ✔️ | BOTH</div>
+        </article>
+      </main>
+
+      <footer>
+        Organelle Project • Designed with a glowing cell‑theme layout
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
